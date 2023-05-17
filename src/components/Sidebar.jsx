@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { PencilLine } from 'phosphor-react'
 import styles from './Sidebar.module.css'
 
-export default function Sidebar() {
+export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
       <Image

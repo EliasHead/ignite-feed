@@ -1,5 +1,7 @@
-import Sidebar from '@/components/Sidebar'
 import { Header } from '../components/Header'
+import { Sidebar } from '@/components/Sidebar'
+import { Post } from '@/components/Post'
+
 import styles from '../styles/App.module.css'
 
 export default function Home() {
@@ -9,7 +11,8 @@ export default function Home() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <h1>Princimpal</h1>
+          <Post />
+          <Post />
         </main>
       </div>
     </>
